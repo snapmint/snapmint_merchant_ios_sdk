@@ -484,6 +484,52 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(orderValue:merchantLink:isEnable:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnapmintEmiInfoView",
+                "printedName": "IosMerchantSdk.SnapmintEmiInfoView",
+                "usr": "s:14IosMerchantSdk19SnapmintEmiInfoViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SnapmintEnvironment",
+                "printedName": "IosMerchantSdk.SnapmintEnvironment",
+                "usr": "s:14IosMerchantSdk19SnapmintEnvironmentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14IosMerchantSdk19SnapmintEmiInfoViewV10orderValue12merchantLink8isEnable11environmentACSd_SSSbAA0D11EnvironmentOtcfc",
+            "mangledName": "$s14IosMerchantSdk19SnapmintEmiInfoViewV10orderValue12merchantLink8isEnable11environmentACSd_SSSbAA0D11EnvironmentOtcfc",
+            "moduleName": "IosMerchantSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
@@ -753,6 +799,75 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(checkoutJson:baseUrl:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnapmintCheckoutView",
+                "printedName": "IosMerchantSdk.SnapmintCheckoutView",
+                "usr": "s:14IosMerchantSdk20SnapmintCheckoutViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<IosMerchantSdk.SnapmintOrderResult?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IosMerchantSdk.SnapmintOrderResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SnapmintOrderResult",
+                        "printedName": "IosMerchantSdk.SnapmintOrderResult",
+                        "usr": "s:14IosMerchantSdk19SnapmintOrderResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14IosMerchantSdk20SnapmintCheckoutViewV12checkoutJson7baseUrl6resultACSDySSypG_SS7SwiftUI7BindingVyAA0D11OrderResultVSgGtcfc",
+            "mangledName": "$s14IosMerchantSdk20SnapmintCheckoutViewV12checkoutJson7baseUrl6resultACSDySSypG_SS7SwiftUI7BindingVyAA0D11OrderResultVSgGtcfc",
+            "moduleName": "IosMerchantSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
@@ -1041,7 +1156,7 @@
     {
       "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Untitled\/merchant_ios_native_sdk\/IosMerchantSdk\/View\/SnapmintEmiInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 721,
+      "offset": 992,
       "length": 5,
       "value": "false"
     },

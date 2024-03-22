@@ -25,6 +25,7 @@ public enum SnapmintEnvironment {
   @_Concurrency.MainActor(unsafe) public let merchantLink: Swift.String
   @_Concurrency.MainActor(unsafe) public let isEnable: Swift.Bool
   @_Concurrency.MainActor(unsafe) public let environment: IosMerchantSdk.SnapmintEnvironment
+  @_Concurrency.MainActor(unsafe) public init(orderValue: Swift.Double, merchantLink: Swift.String, isEnable: Swift.Bool, environment: IosMerchantSdk.SnapmintEnvironment)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -33,6 +34,7 @@ public enum SnapmintEnvironment {
 @_Concurrency.MainActor(unsafe) public struct SnapmintCheckoutView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public let checkoutJson: [Swift.String : Any]
   @_Concurrency.MainActor(unsafe) public let baseUrl: Swift.String
+  @_Concurrency.MainActor(unsafe) public init(checkoutJson: [Swift.String : Any], baseUrl: Swift.String, result: SwiftUI.Binding<IosMerchantSdk.SnapmintOrderResult?>)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

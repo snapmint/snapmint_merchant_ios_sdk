@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yOQiJT7iNcf8ODDa2Wj43zraHYs=
+		apLiTLu88+B7qC9+2ZHEkdQrFLA=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5cYeRpm/SCttuvbXFJkbJVnBa2s=
+		TUkRhFneKqcxqcyPq72hkT9Mteo=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5cYeRpm/SCttuvbXFJkbJVnBa2s=
+		TUkRhFneKqcxqcyPq72hkT9Mteo=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fBd9gmU+nwgxr7Z/igrA73z7dQw=
+		dNKDdrWb8Ue7NkKQr+w3gh3k4Wo=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yOQiJT7iNcf8ODDa2Wj43zraHYs=
+		apLiTLu88+B7qC9+2ZHEkdQrFLA=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		784js3Ce0ru/2zrhkE1a2M/zyY4=
+		zcSPY7i5HbVoEH+gOSKSc8DnYl4=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		784js3Ce0ru/2zrhkE1a2M/zyY4=
+		zcSPY7i5HbVoEH+gOSKSc8DnYl4=
 		</data>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q+3hRbvvdtOIp0rEM5wghHCaRPE=
+		51dmko2g+p3yVm2/SINA5Rl1iSw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dKgAXQwPQBIl4XKw+E4KS/x7jx2lHnZS3wQWqRVQl9U=
+			8VuS1tdoku8SBFHOBFrFUkU/f59bBmG47MKHy8PHlbs=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nPXTK5VfIwmP5QTk2MNQahioY22rGn9SQ7jPS8lEbVw=
+			hFGUGALzZbBJUaRHCmDfMU4fySwHLmAoUwFDcpmjTQ4=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -122,28 +122,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nPXTK5VfIwmP5QTk2MNQahioY22rGn9SQ7jPS8lEbVw=
+			hFGUGALzZbBJUaRHCmDfMU4fySwHLmAoUwFDcpmjTQ4=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kvw67NMYHPBqABWSg/WGOZlWYvQfaU4qmkC3GDvcpng=
+			8ikqIMr6WEm2IUF+4l6PH7kRSm8gsR2ByNTjPPhY39o=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dKgAXQwPQBIl4XKw+E4KS/x7jx2lHnZS3wQWqRVQl9U=
+			8VuS1tdoku8SBFHOBFrFUkU/f59bBmG47MKHy8PHlbs=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			88kzMwr9keArL3J6vi27rrvTy0/Hb7M/8jpQWAi/FsQ=
+			4BU1y6t+ccotHZsBXSHhWxXiS/eDoJUNd4roU9JWFiY=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -157,14 +157,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			88kzMwr9keArL3J6vi27rrvTy0/Hb7M/8jpQWAi/FsQ=
+			4BU1y6t+ccotHZsBXSHhWxXiS/eDoJUNd4roU9JWFiY=
 			</data>
 		</dict>
 		<key>Modules/IosMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/0QVmk9jNNn9WaiXMWlVReLz0uz9ugK7eE/ZwTF6Z0=
+			XAQOvdD/sGe5SS+x8Jpe4GJjzyRCgDPPMPfjhThpKmA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
