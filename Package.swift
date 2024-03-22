@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "SnapmintMerchantIosSdk",
     platforms: [
-            .macOS(.v10_14), .iOS(.v15), .tvOS(.v13)
-        ],
+      .macOS(.v12), .iOS(.v15)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -15,12 +15,10 @@ let package = Package(
             targets: ["SnapmintMerchantIosSdk"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "SnapmintMerchantIosSdk"),
-        .testTarget(
-            name: "SnapmintMerchantIosSdkTests",
-            dependencies: ["SnapmintMerchantIosSdk"]),
+        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
+        // Targets can depend on other targets in this package, and on products in packages this package depends on.
+        .binaryTarget(
+            name: "SnapmintMerchantSdk",
+            path: "./Sources/SnapmintMerchantSdk.xcframework")
     ]
 )
