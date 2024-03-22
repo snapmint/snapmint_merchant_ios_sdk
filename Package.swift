@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SnapmintMerchantIosSdk",
+    name: "SnapmintMerchantSdk",
     platforms: [
       .macOS(.v12), .iOS(.v15)
     ],
