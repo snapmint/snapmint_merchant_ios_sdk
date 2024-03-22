@@ -1,0 +1,11 @@
+framework module IosMerchantSdk {
+  umbrella header "IosMerchantSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module IosMerchantSdk.Swift {
+  header "IosMerchantSdk-Swift.h"
+  requires objc
+}
