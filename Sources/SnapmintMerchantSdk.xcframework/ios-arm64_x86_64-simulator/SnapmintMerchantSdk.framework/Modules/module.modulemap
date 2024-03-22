@@ -1,0 +1,6 @@
+framework module SnapmintMerchantSdk {
+  umbrella header "SnapmintMerchantSdk.h"
+  export *
+
+  module * { export * }
+}
