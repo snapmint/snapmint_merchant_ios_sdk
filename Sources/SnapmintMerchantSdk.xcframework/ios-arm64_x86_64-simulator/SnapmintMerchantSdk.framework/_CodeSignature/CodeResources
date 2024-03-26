@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NEsaicH6SlmYVi6ZAZ68v0kK9wA=
+		K2hbimQ62ksMfris8ASAa41xT9w=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LYDFM+xGe9RCr2if/LvmMNAt1xM=
+		L13EUpBK4c6BDzleuiNxfML0Xeo=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NEsaicH6SlmYVi6ZAZ68v0kK9wA=
+		K2hbimQ62ksMfris8ASAa41xT9w=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		reTCf6D6RMVH5lZ8fFS75bGwQ90=
+		YLLjGFIZTBCE57rPzhrTlafSuJM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1m+tHg2/7fAuvCIxGztsXDr0R4flgsAucg5O38kJ+Vg=
+			RCu0rFGQ6shmqcIygs+ufubKEgb78lmAagR/WmQwK/4=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -122,14 +122,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y8Ke56DG4WkvGuvqqpmdHYhaKdyq3swvX6LOHzV7zEc=
+			42yIg4bNG0+so/VuVoNKw4HBYXRCWwtTrpkR2/0pfq0=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1m+tHg2/7fAuvCIxGztsXDr0R4flgsAucg5O38kJ+Vg=
+			RCu0rFGQ6shmqcIygs+ufubKEgb78lmAagR/WmQwK/4=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ejNuiFTJtEgW17Vr5YERKNkhWlYyBNuA7w4WEIJKI5M=
+			GDUKiLKOLFJqp4MNXdEkNAZVoau7/0eSoHH+QsGBLY4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
