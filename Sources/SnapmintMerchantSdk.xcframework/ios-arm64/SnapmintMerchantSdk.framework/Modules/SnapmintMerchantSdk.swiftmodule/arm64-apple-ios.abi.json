@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SnapmintMerchantSdk",
+    "printedName": "SnapmintMerchantSdk",
     "children": [
       {
         "kind": "Import",
@@ -36,8 +36,9 @@
             "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV10orderValueSdvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -81,8 +82,9 @@
             "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV12merchantLinkSSvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -126,8 +128,9 @@
             "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV8isEnableSbvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -171,8 +174,9 @@
             "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV11environmentAA0A11EnvironmentOvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -240,6 +244,7 @@
             "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV10orderValue12merchantLink8isEnable11environmentACSd_SSSbAA0A11EnvironmentOtcfc",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -269,6 +274,7 @@
             "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV4bodyQrvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -306,10 +312,25 @@
         "mangledName": "$s19SnapmintMerchantSdk0A11EmiInfoViewV",
         "moduleName": "SnapmintMerchantSdk",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -338,6 +359,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -384,6 +412,336 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnapmintEmiInfoViewNew",
+        "printedName": "SnapmintEmiInfoViewNew",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "orderValue",
+            "printedName": "orderValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV10orderValueSdvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV10orderValueSdvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV10orderValueSdvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV10orderValueSdvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "merchantLink",
+            "printedName": "merchantLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV12merchantLinkSSvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV12merchantLinkSSvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV12merchantLinkSSvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV12merchantLinkSSvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnable",
+            "printedName": "isEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV8isEnableSbvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV8isEnableSbvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV8isEnableSbvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV8isEnableSbvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(orderValue:merchantLink:isEnable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnapmintEmiInfoViewNew",
+                "printedName": "SnapmintMerchantSdk.SnapmintEmiInfoViewNew",
+                "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV10orderValue12merchantLink8isEnableACSd_SSSbtcfc",
+            "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV10orderValue12merchantLink8isEnableACSd_SSSbtcfc",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV4bodyQrvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV4bodyQrvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV4bodyQrvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV4bodyQrvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SnapmintMerchantSdk0A14EmiInfoViewNewV",
+        "mangledName": "$s19SnapmintMerchantSdk0A14EmiInfoViewNewV",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -635,6 +993,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -779,6 +1151,22 @@
         "moduleName": "SnapmintMerchantSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -846,8 +1234,9 @@
             "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJsonSDySSypGvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -904,8 +1293,9 @@
             "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV7baseUrlSSvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -996,6 +1386,7 @@
             "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJson7baseUrl6resultACSDySSypG_SS7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1025,6 +1416,7 @@
             "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV4bodyQrvp",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1062,10 +1454,25 @@
         "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV",
         "moduleName": "SnapmintMerchantSdk",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -1094,6 +1501,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1146,214 +1560,186 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/View\/SnapmintEmiInfoView.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/SnapmintEmiInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 992,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/SnapmintEmiInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1046,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 43,
       "value": "\"https:\/\/qa2.snapmint.com\/assets\/merchant\/\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 54,
       "value": "\"https:\/\/qaapi.snapmint.com\/v1\/public\/online_checkout\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 46,
       "value": "\"https:\/\/preemi.snapmint.com\/assets\/merchant\/\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 463,
       "length": 55,
       "value": "\"https:\/\/preapi.snapmint.com\/v1\/public\/online_checkout\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 566,
       "length": 44,
       "value": "\"https:\/\/emis.snapmint.com\/assets\/merchant\/\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 647,
       "length": 52,
       "value": "\"https:\/\/api.snapmint.com\/v1\/public\/online_checkout\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 28,
       "value": "\"https:\/\/emis.snapmint.com\/\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 797,
       "length": 52,
       "value": "\"https:\/\/api.snapmint.com\/v1\/public\/online_checkout\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 922,
       "length": 9,
       "value": "\"success\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 965,
       "length": 8,
       "value": "\"failed\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 1039,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 1083,
       "length": 9,
       "value": "\"#676767\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 1126,
       "length": 9,
       "value": "\"#DC3336\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
       "offset": 1171,
       "length": 9,
       "value": "\"#00BC62\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/ViewModel\/SnapmintEmiViewModel.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/ViewModel\/SnapmintEmiViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 210,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 15,
       "value": "\"Inter-Regular\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 14,
       "value": "\"Inter-Medium\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
       "kind": "StringLiteral",
       "offset": 593,
       "length": 16,
       "value": "\"Inter-SemiBold\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 12,
       "value": "\"Inter-Bold\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 17,
       "value": "\"Inter-ExtraBold\""
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 15,
-      "value": "\"Inter-Regular\""
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/SnapmintEmiInfoViewNew.swift",
+      "kind": "BooleanLiteral",
+      "offset": 702,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
-      "kind": "StringLiteral",
-      "offset": 553,
-      "length": 14,
-      "value": "\"Inter-Medium\""
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/SnapmintEmiInfoViewNew.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 2,
+      "value": "10"
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
-      "kind": "StringLiteral",
-      "offset": 593,
-      "length": 16,
-      "value": "\"Inter-SemiBold\""
-    },
-    {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
-      "kind": "StringLiteral",
-      "offset": 631,
-      "length": 12,
-      "value": "\"Inter-Bold\""
-    },
-    {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 17,
-      "value": "\"Inter-ExtraBold\""
-    },
-    {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/ViewModel\/SnapmintCheckoutViewModel.swift",
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/ViewModel\/SnapmintCheckoutViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 237,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/View\/CheckoutView\/SnapmintCheckoutWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 1386,
-      "length": 11,
-      "value": "\"SnapmintMerchantSdk.Coordinator\""
-    },
-    {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/Code\/IosMerchantSdk\/SnapmintMerchantSdk\/SnapmintMerchantSdk\/View\/SnapmintEmiInfoDialogView.swift",
-      "kind": "StringLiteral",
-      "offset": 24816,
-      "length": 20,
-      "value": "\"SnapmintMerchantSdk.ScriptMessageHandler\""
     }
   ]
 }
