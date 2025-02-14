@@ -1023,6 +1023,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1167,6 +1184,71 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1750,6 +1832,76 @@
       "offset": 237,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 9,
+      "value": "\"general\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 484,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }
