@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HOkx/OGJeeeNK8nqv7vIBCeVLE0=
+		ppkRG/kctSn+OIVhHOYnT9QT4DU=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3VzwwvLdlBgLQGzELuklK6s8XS8=
+		eI3K++UF9Ns0Ybv9MG6Q1vuDXzw=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TrpS2prugo8hHz/fNLgYuorrdmY=
+		vRxOgvAJ8+9/2KX1YT2AoLGz+bQ=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VHV7jN5E4GSnyhx9DQz6QtoJPss=
+		7/cu4AFr11E7Dbsjctc83gkKdU8=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TrpS2prugo8hHz/fNLgYuorrdmY=
+		vRxOgvAJ8+9/2KX1YT2AoLGz+bQ=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AM6y0eARy3aEt7S+jxVm5Itvy00=
+		K0lAfuCO6aBEGMs8/0eCQJIa1ps=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3VzwwvLdlBgLQGzELuklK6s8XS8=
+		eI3K++UF9Ns0Ybv9MG6Q1vuDXzw=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KS7S9lHqdRZ9//jyTRHZnlPk8Y4=
+		9sV9kVtIYUw5F5gnHosL2BU6dww=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vy40kX3cAfrsgaOo3k51u8Xi2NU=
+		KItsFI+TihzvdwU/6m1xmBMh33s=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KS7S9lHqdRZ9//jyTRHZnlPk8Y4=
+		9sV9kVtIYUw5F5gnHosL2BU6dww=
 		</data>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qVT2Y9t8DcU8PTbEOGKqq6Y+E08=
+		38nFcbwV/R4mn6Sq6Tct/a6+Cps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,70 +90,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uQrlIgf3FfZN4jsR3OD0ew9kYmouCFlO4dBAGZGEKw=
+			Qe/26LiBwJTlikC5oCx0s3LGDg9zDrX399Rnsv+ZLwU=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6colyllVtRQQ1G07HJ52rWtHolIclxMBZzb1VAACoY=
+			mwx0Ny1zZXPqcrPE4FJGg+zYAwWcaqS/JOo6e+kHia0=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nBVWL84buV+wTgLiEj0t/gH/ZSOx6jhupxn14lwRYbc=
+			jQueUUwaym+Y1gqTkt3+pYSwpKJYgPhCp51scajkCzE=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6colyllVtRQQ1G07HJ52rWtHolIclxMBZzb1VAACoY=
+			mwx0Ny1zZXPqcrPE4FJGg+zYAwWcaqS/JOo6e+kHia0=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kLFthbHu6btUCXbcFG+3FfUdlsTYCOvN/6UIpnKXDcc=
+			0/QTZITPf6jZk77OrN4iqvGbFYfcSsrUU8ZbbwC1De8=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uQrlIgf3FfZN4jsR3OD0ew9kYmouCFlO4dBAGZGEKw=
+			Qe/26LiBwJTlikC5oCx0s3LGDg9zDrX399Rnsv+ZLwU=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xpun1wgmkEW1PBKSs+DHC0qcNrmoDkHDrmiwQc5I82c=
+			mBYmEISmBy5bGe9zNTg+2v8U4dhWL2//dP3jhEgccUY=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uPs+hfcVkKv+wWrD6dYse1m9OV/RB+ucuo3HJWOYY4s=
+			Fsw2H/DgTBRu3h5IAG/mt/AuBMkNR3TDLn86xg/x7LY=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xpun1wgmkEW1PBKSs+DHC0qcNrmoDkHDrmiwQc5I82c=
+			mBYmEISmBy5bGe9zNTg+2v8U4dhWL2//dP3jhEgccUY=
 			</data>
 		</dict>
 		<key>Modules/SnapmintMerchantSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mgyn/ntExg4l0Dfoxe0Ipw2MCj6dxScKHS06AxqTqU=
+			qjA1cCLT4wm+SJ+SJkWvesYf1Ij9rOBFXK59zc5MASo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
