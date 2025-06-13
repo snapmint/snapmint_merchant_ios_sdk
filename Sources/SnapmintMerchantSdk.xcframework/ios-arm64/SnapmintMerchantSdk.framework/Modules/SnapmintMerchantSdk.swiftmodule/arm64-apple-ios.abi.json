@@ -754,23 +754,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "SnapmintMerchantSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SnapmintMerchantSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "SnapmintEnvironment",
         "printedName": "SnapmintEnvironment",
@@ -1059,16 +1042,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SnapmintMerchantSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "SnapmintOrderResult",
         "printedName": "SnapmintOrderResult",
@@ -1293,8 +1266,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SnapmintSkipOtpCheckoutView",
-        "printedName": "SnapmintSkipOtpCheckoutView",
+        "name": "SnapmintCheckoutView",
+        "printedName": "SnapmintCheckoutView",
         "children": [
           {
             "kind": "Constructor",
@@ -1303,9 +1276,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SnapmintSkipOtpCheckoutView",
-                "printedName": "SnapmintMerchantSdk.SnapmintSkipOtpCheckoutView",
-                "usr": "s:19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV"
+                "name": "SnapmintCheckoutView",
+                "printedName": "SnapmintMerchantSdk.SnapmintCheckoutView",
+                "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV"
               },
               {
                 "kind": "TypeNominal",
@@ -1337,330 +1310,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV3url6resultAC10Foundation3URLV_7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
-            "mangledName": "$s19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV3url6resultAC10Foundation3URLV_7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
-            "moduleName": "SnapmintMerchantSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV4bodyQrvp",
-            "mangledName": "$s19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV4bodyQrvp",
-            "moduleName": "SnapmintMerchantSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV4bodyQrvg",
-                "mangledName": "$s19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV4bodyQrvg",
-                "moduleName": "SnapmintMerchantSdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV",
-        "mangledName": "$s19SnapmintMerchantSdk0A19SkipOtpCheckoutViewV",
-        "moduleName": "SnapmintMerchantSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SnapmintMerchantSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SnapmintCheckoutView",
-        "printedName": "SnapmintCheckoutView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "checkoutJson",
-            "printedName": "checkoutJson",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJsonSDySSypGvp",
-            "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJsonSDySSypGvp",
-            "moduleName": "SnapmintMerchantSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJsonSDySSypGvg",
-                "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJsonSDySSypGvg",
-                "moduleName": "SnapmintMerchantSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "baseUrl",
-            "printedName": "baseUrl",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV7baseUrlSSvp",
-            "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV7baseUrlSSvp",
-            "moduleName": "SnapmintMerchantSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV7baseUrlSSvg",
-                "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV7baseUrlSSvg",
-                "moduleName": "SnapmintMerchantSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(checkoutJson:baseUrl:result:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SnapmintCheckoutView",
-                "printedName": "SnapmintMerchantSdk.SnapmintCheckoutView",
-                "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<SnapmintMerchantSdk.SnapmintOrderResult?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SnapmintMerchantSdk.SnapmintOrderResult?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SnapmintOrderResult",
-                        "printedName": "SnapmintMerchantSdk.SnapmintOrderResult",
-                        "usr": "s:19SnapmintMerchantSdk0A11OrderResultV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJson7baseUrl6resultACSDySSypG_SS7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
-            "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV12checkoutJson7baseUrl6resultACSDySSypG_SS7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
+            "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV3url6resultAC10Foundation3URLV_7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
+            "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV3url6resultAC10Foundation3URLV_7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
               "Preconcurrency",
@@ -2012,13 +1663,6 @@
       "value": "10"
     },
     {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/ViewModel\/SnapmintCheckoutViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 237,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 244,
@@ -2085,13 +1729,6 @@
       "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/WebPageViewModel.swift",
       "kind": "StringLiteral",
       "offset": 891,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/lokeshjoshi\/Snapmint\/IOS\/SDK\/Dev\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/SnapmintCheckoutView.swift",
-      "kind": "StringLiteral",
-      "offset": 458,
       "length": 2,
       "value": "\"\""
     }
