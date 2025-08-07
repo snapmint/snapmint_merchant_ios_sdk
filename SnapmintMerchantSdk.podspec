@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SnapmintMerchantSdk'
-  s.version          = '1.0.0'
+  s.version          = '1.0.6'
   s.summary          = 'Snapmint Merchant iOS SDK'
   s.description      = <<-DESC
     SnapmintMerchantSdk lets merchants offer Snapmint payment
