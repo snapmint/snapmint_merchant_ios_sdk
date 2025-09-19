@@ -45,6 +45,7 @@ public enum SnapmintEnvironment {
 }
 public struct SnapmintOrderResult {
   public let status: Swift.String
+  public let data: Swift.String
   public let message: Swift.String
 }
 @_Concurrency.MainActor @preconcurrency public struct SnapmintCheckoutView : SwiftUICore.View {
