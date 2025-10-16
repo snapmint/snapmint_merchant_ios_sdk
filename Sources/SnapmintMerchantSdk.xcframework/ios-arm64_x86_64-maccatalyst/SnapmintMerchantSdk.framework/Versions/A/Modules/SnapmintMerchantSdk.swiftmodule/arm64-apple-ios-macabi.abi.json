@@ -398,6 +398,834 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnapmintHeaderConfig",
+        "printedName": "SnapmintHeaderConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "backButtonImage",
+            "printedName": "backButtonImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage7SwiftUI0H0VSgvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV4logo7SwiftUI5ImageVSgvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV5titleSSSgvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerColor",
+            "printedName": "headerColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0Vvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0Vvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0Vvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0Vvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0Vvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0Vvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0VvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV11headerColor7SwiftUI0G0VvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backButtonColor",
+            "printedName": "backButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0Vvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0Vvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0Vvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0Vvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0Vvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0Vvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0VvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonColor7SwiftUI0H0VvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleColor",
+            "printedName": "titleColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0Vvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0Vvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0Vvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0Vvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0Vvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0Vvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0VvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV10titleColor7SwiftUI0G0VvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerHeight",
+            "printedName": "headerHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight12CoreGraphics7CGFloatVvp",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight12CoreGraphics7CGFloatVvg",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight12CoreGraphics7CGFloatVvs",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV12headerHeight12CoreGraphics7CGFloatVvM",
+                "moduleName": "SnapmintMerchantSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(backButtonImage:backButtonColor:logo:title:titleColor:headerColor:headerHeight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnapmintHeaderConfig",
+                "printedName": "SnapmintMerchantSdk.SnapmintHeaderConfig",
+                "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage0fG5Color4logo5title0kI006headerI00L6HeightAC7SwiftUI0H0VSg_SSSgAn3O14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV15backButtonImage0fG5Color4logo5title0kI006headerI00L6HeightAC7SwiftUI0H0VSg_SSSgAn3O12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "SnapmintMerchantSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV",
+        "mangledName": "$s19SnapmintMerchantSdk0A12HeaderConfigV",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1260,6 +2088,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnapmintMerchantSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1316,13 +2154,28 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:result:)",
+            "printedName": "init(headerConfig:url:result:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "SnapmintCheckoutView",
                 "printedName": "SnapmintMerchantSdk.SnapmintCheckoutView",
                 "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SnapmintMerchantSdk.SnapmintHeaderConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SnapmintHeaderConfig",
+                    "printedName": "SnapmintMerchantSdk.SnapmintHeaderConfig",
+                    "usr": "s:19SnapmintMerchantSdk0A12HeaderConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1354,8 +2207,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV3url6resultAC10Foundation3URLV_7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
-            "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV3url6resultAC10Foundation3URLV_7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
+            "usr": "s:19SnapmintMerchantSdk0A12CheckoutViewV12headerConfig3url6resultAcA0a6HeaderG0VSg_10Foundation3URLV7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
+            "mangledName": "$s19SnapmintMerchantSdk0A12CheckoutViewV12headerConfig3url6resultAcA0a6HeaderG0VSg_10Foundation3URLV7SwiftUI7BindingVyAA0A11OrderResultVSgGtcfc",
             "moduleName": "SnapmintMerchantSdk",
             "declAttributes": [
               "Preconcurrency",
@@ -1618,28 +2471,35 @@
     {
       "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 1009,
+      "length": 10,
+      "value": "\"canceled\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1083,
+      "offset": 1129,
       "length": 9,
       "value": "\"#676767\""
     },
     {
       "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1126,
+      "offset": 1172,
       "length": 9,
       "value": "\"#DC3336\""
     },
     {
       "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Constant\/SnapmintConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1217,
       "length": 9,
       "value": "\"#00BC62\""
     },
@@ -1649,6 +2509,13 @@
       "offset": 210,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Model\/SnapmintHeaderConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 659,
+      "length": 2,
+      "value": "56"
     },
     {
       "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Components\/TextStyleModifier.swift",
@@ -1789,6 +2656,13 @@
       "offset": 970,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/View\/CheckoutView\/SnapmintCheckoutView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/lokeshjoshi\/Sanpmint\/Ios\/Code\/SDK\/Dev\/Untitled\/merchant_ios_native_sdk\/SnapmintMerchantSdk\/Model\/EmiInfoModel.swift",

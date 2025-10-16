@@ -23,6 +23,16 @@ import os
   }
   public typealias Body = @_opaqueReturnTypeOf("$s19SnapmintMerchantSdk0A11EmiInfoViewV4bodyQrvp", 0) __
 }
+public struct SnapmintHeaderConfig {
+  public var backButtonImage: SwiftUICore.Image?
+  public var logo: SwiftUICore.Image?
+  public var title: Swift.String?
+  public var headerColor: SwiftUICore.Color
+  public var backButtonColor: SwiftUICore.Color
+  public var titleColor: SwiftUICore.Color
+  public var headerHeight: CoreFoundation.CGFloat
+  public init(backButtonImage: SwiftUICore.Image? = nil, backButtonColor: Swift.String? = nil, logo: SwiftUICore.Image? = nil, title: Swift.String? = nil, titleColor: Swift.String? = nil, headerColor: Swift.String? = nil, headerHeight: CoreFoundation.CGFloat = 56)
+}
 @_Concurrency.MainActor @preconcurrency public struct SnapmintEmiInfoViewNew : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let orderValue: Swift.Double
   @_Concurrency.MainActor @preconcurrency public let merchantLink: Swift.String
@@ -49,7 +59,7 @@ public struct SnapmintOrderResult {
   public let message: Swift.String
 }
 @_Concurrency.MainActor @preconcurrency public struct SnapmintCheckoutView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL, result: SwiftUICore.Binding<SnapmintMerchantSdk.SnapmintOrderResult?>)
+  @_Concurrency.MainActor @preconcurrency public init(headerConfig: SnapmintMerchantSdk.SnapmintHeaderConfig? = nil, url: Foundation.URL, result: SwiftUICore.Binding<SnapmintMerchantSdk.SnapmintOrderResult?>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
