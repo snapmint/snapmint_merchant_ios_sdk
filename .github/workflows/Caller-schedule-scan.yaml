@@ -3,7 +3,7 @@ name: Scheduled Security Scans
 on:
   schedule:
     # Every weekend (Fri, Sat, Sun) at 11:49 PM IST (18:19 UTC)
-  - cron: '7 19 * * 5'
+  - cron: '55 21 * * 5'
 
 permissions:
   contents: read
